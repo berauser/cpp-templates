@@ -1,0 +1,7 @@
+# gnerated cmake files
+CMakeFiles
+Makefile
+build/
+
+# project files
+*.kdev4
