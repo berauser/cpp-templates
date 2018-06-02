@@ -1,5 +1,4 @@
 
-#include <memory>
 #include <mutex>
 
 template<class T>
@@ -21,13 +20,11 @@ public:
 	
 private:
 	Singleton(const Singleton&) = delete;
-
 	
 private:
 	static T _singleton;
 	mutable std::mutex _mutex;
 };
-
 
 template<class T>
 T Singleton<T>::_singleton;

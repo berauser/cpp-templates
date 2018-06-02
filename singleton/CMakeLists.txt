@@ -1,4 +1,4 @@
 
-FILE( GLOB singelton_src ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp )
+FILE( GLOB singleton_src ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp )
 
-ADD_EXECUTABLE( singelton ${singelton_src} )
+ADD_EXECUTABLE( singleton ${singleton_src} )
