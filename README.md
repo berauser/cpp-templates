@@ -1,9 +1,10 @@
-Some C++ template implementations.
+Some C++ pattern template implementations.
 
 Implemented:
 
 * Registry
-
+* Observer
+* Singleton
 
 ## Build ##
 
