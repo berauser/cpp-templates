@@ -1,6 +1,4 @@
 
-#include <mutex>
-
 template <class T>
 class Singleton
 {
@@ -23,7 +21,6 @@ private:
 
 private:
 	static T _singleton;
-	mutable std::mutex _mutex;
 };
 
 template <class T>
