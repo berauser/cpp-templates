@@ -43,6 +43,7 @@ ENDIF( BUILD_PARANOID )
 #
 ################################################################################
 ADD_SUBDIRECTORY( registry )
+ADD_SUBDIRECTORY( registry2 )
 ADD_SUBDIRECTORY( singleton )
 ADD_SUBDIRECTORY( singleton2 )
 ADD_SUBDIRECTORY( observer )
